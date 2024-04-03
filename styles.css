@@ -1,9 +1,17 @@
 * {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  background-color: #f8f9fa;
 }
 
 h1 {
   text-align: center;
+  padding: 10px 0 0 0;
+  font-size: 2.5em;
 }
 
 img {
@@ -16,11 +24,12 @@ img {
 }
 
 figcaption {
-  font-size: 12px;
+  width: 70%;
+  padding-top: 10px;
 }
 
 li {
-  padding-bottom: 15px;
+  padding: 15px 0px;
 }
 
 ul p, li {
@@ -30,4 +39,20 @@ ul p, li {
 .bold, .inline {
   font-weight: bold;
   display: inline;
+}
+
+#content {
+  background-color: #e9ecef;
+  padding: 10px;
+  margin: 0px 35px;
+}
+
+#info {
+  width: 35%;
+  font-size: 16px;
+}
+
+#header p {
+  margin-top: -5px;
+  font-size: 1.25em;
 }
