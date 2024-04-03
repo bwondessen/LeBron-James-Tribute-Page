@@ -3,6 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   font-family: "Source Sans 3";
+  scroll-behavior: smooth;
 }
 
 main {
