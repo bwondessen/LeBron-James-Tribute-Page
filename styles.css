@@ -2,6 +2,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Source Sans 3";
 }
 
 main {
@@ -32,11 +33,13 @@ li {
   padding: 15px 0px;
 }
 
-ul p, li {
+ul p,
+li {
   text-align: left;
 }
 
-.bold, .inline {
+.bold,
+.inline {
   font-weight: bold;
   display: inline;
 }
@@ -55,4 +58,20 @@ ul p, li {
 #header p {
   margin-top: -5px;
   font-size: 1.25em;
+}
+
+#top-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  margin: 25px 50px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+#top-button:hover {
+  background-color: unset;
+  color: black;
 }
