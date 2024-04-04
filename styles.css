@@ -4,16 +4,23 @@
   margin-right: auto;
   font-family: "Source Sans 3";
   scroll-behavior: smooth;
+  margin-top: 0;
 }
 
 main {
   background-color: #f8f9fa;
+  padding-bottom: 20px;
+  font-size: 18px;
 }
 
 h1 {
-  text-align: center;
-  padding: 10px 0 0 0;
+  padding-top: 10px;
   font-size: 2.5em;
+}
+
+h2 {
+  padding-top: 70px;
+  padding-bottom: 20px;
 }
 
 img {
@@ -28,6 +35,12 @@ img {
 figcaption {
   width: 70%;
   padding-top: 10px;
+  margin-bottom: -20px;
+  font-size: unset;;
+}
+
+ul {
+  margin-top: 25px;
 }
 
 li {
@@ -47,17 +60,21 @@ li {
 
 #content {
   background-color: #e9ecef;
-  padding: 10px;
+  padding: 15px;
   margin: 0px 35px;
 }
 
 #info {
-  width: 35%;
+  width: 40%;
   font-size: 16px;
 }
 
+#quote {
+  margin-bottom: 25px;
+}
+
 #header p {
-  margin-top: -5px;
+  margin-top: -30px;
   font-size: 1.25em;
 }
 
